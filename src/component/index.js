@@ -63,7 +63,7 @@ export function RegisterFunction() {
           required
         />
         <input
-          type="phone"
+          type="number"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
           placeholder="Phone"
